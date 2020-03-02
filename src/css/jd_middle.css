@@ -1,0 +1,264 @@
+    * {
+	 margin: 0;
+	 padding: 0;
+     box-sizing:border-box;
+	}
+	
+	a {
+	text-decoration:none;
+    font-size: 12px;
+    color: #999;
+	}
+    .clearfix:after{
+    display:block;
+    content:' ';
+    clear:both;
+   }
+    .clearfix{
+    *zoom:1;
+   }
+	.fl {
+		float: left;
+	}
+	.fr {
+		float: right;
+	}
+	.lunbo_b {
+	height: 456px;
+	width: 590px;
+	margin-left: 10px;
+	background-color: pink;
+	position: relative;
+	}
+	.sceond {
+	height: 500px;
+	}
+    .left_part  {
+	width: 190px;
+	height: 470px;
+	background-color: #FEFEFE;
+	padding-top: 14px;
+	
+
+    }
+    .lunbo_b button {
+    width: 25px;
+    height: 40px;
+    position: absolute;
+    background-color: rgba(3,3,3,0.1);
+    outline: none; /* 取消自定义边框 */
+    border: none; /* 取消按钮立体效果 */
+    top: 215px;	
+    }
+    .btn_left {
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    }
+    .btn_right {
+    left: 565px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    }
+	.dots {
+	width: 180px;
+	height: 16px;
+	position: absolute;	
+	left: 50px;
+	bottom: 23px;
+	z-index: 2;
+
+	}
+	.dots li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border:2px solid rgba(0,0,0,0.1);
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.1);
+	margin: 3px 8px 3px 0; 
+	box-sizing:content-box;
+	}
+	.current {
+	border:2px solid rgba(0,0,0,.4)!important;	
+	background-color:rgba(255,255,255,1)!important;
+	
+	}
+    .left_part li {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 16px;
+    }
+    .left_part a{
+    font-size: 12px;
+    color: #626262;
+    }
+    .left_part span {
+    padding: 0 2px;
+    font-size: 12px;
+    color: #626262;
+    }
+    .js_lunboMax{
+    height: 456px;
+	width: 590px;
+	position: relative;
+	overflow: hidden;
+    }
+    .js_lunbo{
+    height: 456px;
+	width: 3600px;
+	position: absolute;
+	
+	
+    } 
+    .img_js{
+    float: left;
+
+
+    }
+
+	.lunbo{
+	width: 800px;
+	height:260px;
+	overflow: hidden;
+	float: left;
+    }
+
+
+
+
+
+
+
+
+	.last_sell {
+	height: 260px;
+	width: 1200px;
+	background-color: #fff;
+	
+	}
+	
+	.last_time {
+	height: 260px;
+	width: 190px;
+	background: url('../img/flash.png') no-repeat;
+	float: left;
+
+	}
+	.l_tittle {
+	width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+    color:#fff;
+	}
+	.text_01 {
+	text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #F39A85;
+	}
+	.tip {
+	text-align: center;
+    font-size: 14px;
+    color:#fff;
+    margin-top: 62px;
+
+	}
+	.finnal_time {
+	margin-top: 22px;
+	text-align: center;
+	position: relative;
+
+	}
+	.finnal_time span{
+	width: 30px;
+	height: 30px; 
+	background-color: #000;
+	line-height: 30px;
+	color: #fff;
+	display: inline-block;
+	font-size: 18px;
+    font-weight: 700;
+    margin: 0 5px;
+
+
+	}
+	.time_01::after {
+	content: ':';
+	display: block;
+	font-size: 18px;
+    font-weight: 700;
+	width: 20px;
+	height: 30px;
+	
+	position: absolute;
+	top: -2px;
+	left: 63px;	
+	}
+	.time_02::after {
+	content: ':';
+	display: block;
+	font-size: 18px;
+	
+    font-weight: 700;
+	width: 20px;
+	height: 30px;
+	position: absolute;
+	top: -2px;
+	left: 107px;	
+	}
+	
+	.sell{
+	width: 200px;
+	height: 260px;
+	background-color: #fff;
+	float: left;
+	}
+	.sell img{
+	margin: 30px 30px 10px 30px;
+
+	}
+	.tittle_1 {
+	font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+    overflow: hidden;      /*超出部分显示省略号*/   
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 160px;
+    margin: 0 auto;
+    
+	}
+	.price {
+	
+	height: 24px;
+	width: 160px;
+	margin-left: 20px;
+	margin-top: 20px;
+	}
+	.price span {
+	width: 80px;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 24px;
+	
+    font-weight: 700;
+    
+
+	}
+	.now_price{
+	background-color: #E6382F;
+	font-size: 16px;
+	color: #fff;
+	}
+	.pervious{
+	background-color: #fff;
+	font-size: 12px;
+	color: #333;
+	text-decoration:line-through; /*字体划掉*/
+	}
+
+	
